@@ -63,10 +63,10 @@ const projectsData = [
       id: 7,
       title: "Mood Coffee",
       description: "A mock up of Logo that present a modern kind of cafe",
-      image: "./images/ps2.jpg",
+      image: "./images/ps10.JPG",
       tag: ["All","Graphic Design"],
       gitUrl: "/",
-      previewUrl: "./images/ps2.jpg"
+      previewUrl: "./images/ps10.JPG"
       },   
 ];
 
