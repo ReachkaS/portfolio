@@ -59,7 +59,6 @@ const projectsData = [
       gitUrl: "/",
       previewUrl: "./images/ps2.jpg"
       },
-      
 ];
 
 const cardVariants = {
