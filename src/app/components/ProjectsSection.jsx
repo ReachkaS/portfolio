@@ -42,14 +42,14 @@ const projectsData = [
       previewUrl: "./images/ps1.jpg"
       },
       {
-      id: 5,
-      title: "Proud to be Cambodia",
-      description: "Beautiful culture making Cambodia poeple proudfulness",
-      image: "./images/ps7.jpg",
-      tag: ["All", "Graphic Design"],
-      gitUrl: "/",
-      previewUrl: "./images/ps7.JPG"
-      },
+        id: 5,
+        title: "Mood Coffee",
+        description: "A mock up of Logo that present a modern kind of cafe",
+        image: "./images/ps10.JPG",
+        tag: ["All","Graphic Design"],
+        gitUrl: "/",
+        previewUrl: "./images/ps10.JPG"
+        },
       {
       id: 6,
       title: "Mood Coffee",
@@ -58,16 +58,7 @@ const projectsData = [
       tag: ["All","Graphic Design"],
       gitUrl: "/",
       previewUrl: "./images/ps2.jpg"
-      },   
-      {
-      id: 7,
-      title: "Mood Coffee",
-      description: "A mock up of Logo that present a modern kind of cafe",
-      image: "./images/ps10.JPG",
-      tag: ["All","Graphic Design"],
-      gitUrl: "/",
-      previewUrl: "./images/ps10.JPG"
-      },   
+      },    
 ];
 
 const cardVariants = {
