@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className='card-title text-[#2f4156] text-center text-4xl m-8 font-bold' id='contact'> Let's Get in Touch!
+        <div className="card-title text-[#2f4156] text-center text-4xl m-8 font-bold"> Let&apos;s Get in Touch!
         <div className="cardContainer mx-auto">
             <div className="profileDiv">Hover me</div>
             <div className="infoDiv">

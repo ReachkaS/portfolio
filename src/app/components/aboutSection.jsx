@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useRef } from 'react'
 import { useInView } from "framer-motion";
-
+import Image from 'next/image';
 const TAB_DATA = [
     {
         title: "Skills",
@@ -13,10 +13,10 @@ const TAB_DATA = [
                 <li className="education-item"> <div className="degree">Creating Intuitive User Interfaces:</div> <div className="institution">Focusing on usability and accessibility.</div></li>
             </ul>
         ),
-        image: [
-            (<img src="./images/6.jpg" alt="" />),
-            (<img src="./images/ETEC.jpg" alt="" />),
-            (<img src="./images/Beltei.jpg" alt="" />),
+        images: [
+            (<Image src="./images/6.jpg" alt="" />),
+            (<Image src="./images/ETEC.jpg" alt="" />),
+            (<Image src="./images/Beltei.jpg" alt="" />),
         ]
     },
     {
@@ -32,9 +32,9 @@ const TAB_DATA = [
                 <li className="education-item"> <div className="degree">Instinct Institute :</div><div className="institution">Adobe Photoshop, Adobe Illustrator</div></li>
             </ul>
         ),
-        image: [
-            (<img src="./images/ETEC.jpg" alt="" />),
-            (<img src="./images/6.jpg" alt="" />),
+        images: [
+            (<Image src="./images/ETEC.jpg" alt="" />),
+            (<Image src="./images/6.jpg" alt="" />),
         ]
     },
     {
@@ -57,8 +57,8 @@ const TAB_DATA = [
                 </li>
             </ul>
         ),
-        image:[
-            (<img src="./images/Beltei.jpg" alt="" />)
+        images:[
+            (<Image src="./images/Beltei.jpg" alt="" />)
         
         ]
     },
@@ -101,9 +101,8 @@ const AboutSection = () => {
         <section className='text-white' id='about'>
             <div className="md:grid md:grid-cols-2 gap-8 items-center px-4 py-8 xl:gap-16 sm:py-16">
                 <Section>   
-                    {/* <div className="hidden md:flex"><img src="./images/profile1.png" alt=""/></div> */}
-                    <div className= "grid grid-cols-1 md:grid-cols-3 a gap-14 py-8 xl:gap-8">
-                        {TAB_DATA.find((t) => t.id === tab).image}
+\                    <div className= "grid grid-cols-1 md:grid-cols-3 a gap-14 py-8 xl:gap-8">
+                        {TAB_DATA.find((t) => t.id === tab).images}
                     </div>
                     <p className='text-[#2f4156] m-1 text-lg lg:text-xl mb-6 text-wrap text-justify text-balace font-medium '>A passionate Frontend Developer with a love for crafting engaging and intuitive web experiences. With a strong foundation in HTML, CSS, and JavaScript, I thrive on turning ideas into reality. I believe in the power of clean, user-friendly design and responsive interfaces that not only look great but also provide seamless functionality. Let’s bring your vision to life together!</p>
                 </Section>  
@@ -119,8 +118,6 @@ const AboutSection = () => {
                     </div>
                     <div className='grid md:grid-cols-1 lg:grid-cols-2 mt-2'>
                         {TAB_DATA.find((t) => t.id === tab).content}
-                        {/* <div className="hidden md:flex"><img src="./images/profile1.png" alt=""/></div> */}
-
                     </div>
                 </Section> 
             </div>
