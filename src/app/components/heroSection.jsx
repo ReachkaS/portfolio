@@ -1,25 +1,7 @@
 "use client";
-import React, {useRef} from 'react'
+import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
-import { useInView } from "framer-motion";
-function Section({ children }) {
-    const ref = useRef(null);
-    const isInView = useInView(ref, { once: true });
-
-    return (
-        <section ref={ref}>
-            <span
-                style={{
-                    transform: isInView ? "none" : "translateX(-200px)",
-                    opacity: isInView ? 1 : 0,
-                    transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
-                }}
-            >
-                {children}
-            </span>
-        </section>
-    );
-}
+import Image from 'next/image'
 function heroSection() {
 
   return (
@@ -41,7 +23,7 @@ function heroSection() {
                 </h1>
             </div>
             <div className="col-span-12  place-self-center text-center sm:text-left relative">
-                <img src="./images/profile1.png" alt="about image" width={500} height={500} className='drop-shadow-xl'/>
+                <Image src="./images/profile1.png" alt="about image" width={500} height={500} className='drop-shadow-xl'/>
             </div>
         </div>
     </section>
