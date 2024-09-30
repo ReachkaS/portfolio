@@ -58,7 +58,16 @@ const projectsData = [
       tag: ["All","Graphic Design"],
       gitUrl: "/",
       previewUrl: "./images/ps2.jpg"
-      },
+      },   
+      {
+      id: 7,
+      title: "Mood Coffee",
+      description: "A mock up of Logo that present a modern kind of cafe",
+      image: "./images/ps2.jpg",
+      tag: ["All","Graphic Design"],
+      gitUrl: "/",
+      previewUrl: "./images/ps2.jpg"
+      },   
 ];
 
 const cardVariants = {
