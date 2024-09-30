@@ -48,7 +48,7 @@ const projectsData = [
       image: "./images/ps7.jpg",
       tag: ["All", "Graphic Design"],
       gitUrl: "/",
-      previewUrl: "./images/ps7.jpg"
+      previewUrl: "./images/ps7.JPG"
       },
       {
       id: 6,
