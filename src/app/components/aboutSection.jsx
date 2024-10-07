@@ -100,12 +100,12 @@ function Section({ children }) {
 }
 
 const TabButton = ({ selectTab, active, children }) => (
-    <button
+    <a type='button'
         onClick={selectTab}
-        className={`p-2 ${active ? 'bg-[#2f4156] rounded-full transition-all delay-150 text-white drop-shadow-xl' : 'text-[#2f4156]'}`}
+        className={`p-2 cursor-pointer ${active ? 'bg-[#2f4156] rounded-full transition-all delay-150 text-white drop-shadow-xl' : 'text-[#2f4156]'}`}
     >
         {children}
-    </button>
+    </a>
 );
 
 const AboutSection = () => {
