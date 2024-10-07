@@ -27,7 +27,7 @@ const Contact = () => {
             <hr className='w-1/2 border-black mx-auto' />
             <div class="w-full mx-auto max-w-screen-xl p-4 sm:justify-center md:flex md:items-center md:justify-between">
                 <div class="mr-12 flex text-center justify-center font-medium md:block  animate-bounce">
-                    <span>Let's Get In Touch</span>
+                    <span>Let&apos;s Get In Touch</span>
                 </div>
                 <div class="flex justify-center items-center">
                     <ul className='social-links flex flex-wrap'>
