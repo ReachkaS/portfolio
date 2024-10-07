@@ -7,7 +7,7 @@ function heroSection() {
   return (
     <section>
         <div className="grid grid-cols-1 sm:grid-cols-12" id='home'>
-            <div className="col-span-12 place-self-center text-center sm:text-left absolute">
+            <div className="col-span-12 place-self-center text-center absolute">
             <h1 className="text-white mb-4 text-4xl sm:text-9xl lg:text-9xl font-extrabold header-title"><span className='text-transparent bg-clip-text drop-shadow-xl bg-gradient-to-r from-[#EAD8B1] via-[#6A9AB0] to-[#C5705D]'>Hello, I&apos;m {""}</span>
                 <br />
                 <TypeAnimation
@@ -24,7 +24,8 @@ function heroSection() {
             </div>
             <div className="col-span-12  place-self-center text-center sm:text-left relative">
                 <Image src="/images/profile1.png" alt="about image" width={500} height={500} className='drop-shadow-xl'/>
-            </div>
+            </div>                
+            
         </div>
     </section>
     
