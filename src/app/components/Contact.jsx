@@ -23,13 +23,13 @@ const contactIcon = [
 ];
 const Contact = () => {
     return (
-        <footer class=" text-center text-dark dark:text-neutral-200 rounded-se-2xl rounded-ss-2xl md:mt-5" id='contact'>
+        <footer className=" text-center text-dark dark:text-neutral-200 rounded-se-2xl rounded-ss-2xl md:mt-5" id='contact'>
             <hr className='w-1/2 border-black mx-auto' />
-            <div class="w-full mx-auto max-w-screen-xl p-4 sm:justify-center md:flex md:items-center md:justify-between">
-                <div class="mr-12 flex text-center justify-center font-medium md:block  animate-bounce">
+            <div className="w-full mx-auto max-w-screen-xl p-4 sm:justify-center md:flex md:items-center md:justify-between">
+                <div className="mr-12 flex text-center justify-center font-medium md:block  animate-bounce">
                     <span>Let&apos;s Get In Touch</span>
                 </div>
-                <div class="flex justify-center items-center">
+                <div className="flex justify-center items-center">
                     <ul className='social-links flex flex-wrap'>
                         {contactIcon.map((link, index) => (
                             <div key={index}>
@@ -46,13 +46,13 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div class="mx-6 pb-4 text-center">
+            <div className="mx-6 pb-4 text-center">
 
                 <div className="w-full mx-auto max-w-screen-xl p-4 flex items-center justify-center">
                     <ul className="flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0 ">
                         {navLinks.map((link, index) => (
                             <li key={index}>
-                                <button href={link.href} class="me-4 md:me-6">{link.title}</button>
+                                <a href={link.href}><button  className="me-4 md:me-6">{link.title}</button></a>
                             </li>
                         ))}
                     </ul>
@@ -62,10 +62,10 @@ const Contact = () => {
                 <button><a href="/images/CV.pdf" download><span className='text-center text-sm font-medium text-gray-500 '>Download CV</span></a></button>
                 </div>
 
-                <div class="mb-6">
-                    <h5 class="mb-2 font-bold uppercase">Explore Our World</h5>
+                <div className="mb-6">
+                    <h5 className="mb-2 font-bold uppercase">Explore Our World</h5>
                     
-                    <p class="mb-4">
+                    <p className="mb-4">
                         Embark on an adventure of a lifetime and uncover hidden
                         wonders. Let my journey begins now!
                     </p>

@@ -78,6 +78,49 @@ const TAB_DATA = [
             <Image key="education-image1" src="/images/Beltei.jpg" alt="Education image" width={500} height={300} />
         ]
     },
+    {
+        title: "Work Experience",
+        id: "work experience",
+        content: (
+            <ul className="education-list">
+                <li className="education-item">
+                    <div className="degree">Ministry of Interior</div>
+                    <div className="degree opacity-70">July 2024 - October 2024</div>
+                    <div className="institution">- Frontend Developer Internship</div>
+                    <div className="institution">- Developed and maintained web applications using HTML, CSS, and JavaScript.</div>
+                    <div className="institution">- Collaborated with designers to implement responsive UI components.</div>
+                    <div className="institution">- Participated in code reviews and contributed to team discussions on best practices.</div>
+                </li>
+                
+            </ul>
+        ),
+        images: [
+            <Image key="skills-image1" src="/images/6.jpg" alt="Skill image 1" width={500} height={300} />,
+            <Image key="skills-image2" src="/images/ETEC.jpg" alt="Skill image 2" width={500} height={300} />,
+            <Image key="skills-image3" src="/images/Beltei.jpg" alt="Skill image 3" width={500} height={300} />,
+        ]
+    },
+    {
+        title: "volunteer",
+        id: "volunteer",
+        content: (
+            <ul className="education-list">
+                <li className="education-item">
+                    <div className="degree">RYL cambodia Volunteer</div>
+                    <div className="degree opacity-70">October 2024</div>
+                    <div className="institution">- Organized and coordinated events, managing venue setup and logistics.</div>
+                    <div className="institution">- Collaborated with team members to ensure smooth event execution.</div>
+                    <div className="institution">- Engaged and entertained the audience, enhancing their experience.</div>
+                    <div className="institution">- Assisted with decoration and preparation, contributing to a visually appealing environment.</div>
+                </li>
+            </ul>
+        ),
+        images: [
+            <Image key="skills-image1" src="/images/6.jpg" alt="Skill image 1" width={500} height={300} />,
+            <Image key="skills-image2" src="/images/ETEC.jpg" alt="Skill image 2" width={500} height={300} />,
+            <Image key="skills-image3" src="/images/Beltei.jpg" alt="Skill image 3" width={500} height={300} />,
+        ]
+    },
 ];
 
 function Section({ children }) {
@@ -134,6 +177,8 @@ const AboutSection = () => {
                         <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>Skills</TabButton>
                         <TabButton selectTab={() => handleTabChange("certifications")} active={tab === "certifications"}>Certifications</TabButton>
                         <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>Education</TabButton>
+                        <TabButton selectTab={() => handleTabChange("work experience")} active={tab === "work experience"}>Work Experience</TabButton>
+                        <TabButton selectTab={() => handleTabChange("volunteer")} active={tab === "volunteer"}>Volunteer</TabButton>
                     </div>
                     <div className='grid md:grid-cols-1 lg:grid-cols-2 mt-2'>
                         {TAB_DATA.find((t) => t.id === tab).content}
