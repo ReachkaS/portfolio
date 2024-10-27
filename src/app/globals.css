@@ -227,3 +227,55 @@ button:after {
 }
 
 
+.certification-section {
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .certification-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  }
+  
+  .certifications-container {
+  max-height: 500px;
+  overflow-y: auto;
+  width: 600px;
+  scrollbar-width: none;
+  }
+  
+  .certifications {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+  width: max-content;
+  }
+  
+  .certifications li {
+  list-style-type: none;
+  }
+  
+  .certifications li img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Customize the scrollbar */
+  .certifications-container::-webkit-scrollbar {
+  width: 8px;
+  }
+  
+  .certifications-container::-webkit-scrollbar-track {
+  background-color: #f8f8f8;
+  }
+  
+  .certifications-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+  }
+  
+  .certifications-container::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+  }
