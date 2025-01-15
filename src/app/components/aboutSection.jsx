@@ -3,7 +3,6 @@ import React, { useState, useRef, ref } from 'react';
 import { useInView } from "framer-motion";
 import Image from 'next/image';
 
-
 const TAB_DATA = [
     {
         title: "Skills",
@@ -112,7 +111,7 @@ const Certification = [
     <Image key="certifications-image1" src="/images/ETEC.jpg" alt="Certification image 1" width={200} height={300} />,
     <Image key="certifications-image2" src="/images/6.jpg" alt="Certification image 2" width={200} height={300} />,
     <Image key="certifications-image3" src="/images/Opentech.jpg" alt="Certification image 3" width={200} height={300} />,
-    <Image key="skills-image1" src="/images/ryl.JPG" alt="Skill image 1" width={200} height={300} />,
+    <Image key="skills-image1" src="/images/ryl.JPG  " alt="Skill image 1" width={200} height={300} />,
     <Image key="education-image1" src="/images/Beltei.jpg" alt="Education image" width={200} height={300} />
 ]
 const Section = ({ children }) => {

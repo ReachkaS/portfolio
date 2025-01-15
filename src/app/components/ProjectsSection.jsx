@@ -43,8 +43,8 @@ const projectsData = [
       },
       {
         id: 5,
-        title: "Mood Coffee",
-        description: "A mock up of Logo that present a modern kind of cafe",
+        title: "Proud to be Cambodian",
+        description: "A poster about various of culture combine in one",
         image: "./images/ps10.JPG",
         tag: ["All","Graphic Design"],
         gitUrl: "/",
@@ -59,6 +59,33 @@ const projectsData = [
       gitUrl: "/",
       previewUrl: "./images/ps2.jpg"
       },    
+      {
+      id: 7,
+      title: "Drinks Coffee",
+      description: "A poster of drinks on promotion day",
+      image: "./images/drink.jpg",
+      tag: ["All","Graphic Design"],
+      gitUrl: "/",
+      previewUrl: "./images/drink.jpg"
+      }, 
+      {
+    id: 8,
+    title: "Burger ",
+    description: "A poster of burger on promotion day",
+    image: "./images/burger.png",
+    tag: ["All","Graphic Design"],
+    gitUrl: "/",
+    previewUrl: "./images/burger.png"
+    }, 
+    {
+        id: 9,
+        title: "Special dishes",
+        description: "A poster of dishes on promotion day",
+        image: "./images/dishes.png",
+        tag: ["All","Graphic Design"],
+        gitUrl: "/",
+        previewUrl: "./images/dishes.png"
+    },    
 ];
 
 const cardVariants = {
