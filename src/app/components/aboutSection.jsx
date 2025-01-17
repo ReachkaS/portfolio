@@ -94,10 +94,10 @@ const TAB_DATA = [
                 <li className="education-item">
                     <div className="degree">RYL cambodia Volunteer</div>
                     <div className="date">October 2024</div>
-                    <div className="institution">- Organized and coordinated events, managing venue setup and logistics.</div>
-                    <div className="institution">- Collaborated with team members to ensure smooth event execution.</div>
-                    <div className="institution">- Engaged and entertained the audience, enhancing their experience.</div>
-                    <div className="institution">- Assisted with decoration and preparation, contributing to a visually appealing environment.</div>
+                </li>
+                <li className="education-item">
+                    <div className="degree">Volunteer - RUPP The 14th Charity and 65th Aniversary</div>
+                    <div className="date">January 2025</div>
                 </li>
 
             </ul>
@@ -111,7 +111,7 @@ const Certification = [
     <Image key="certifications-image1" src="/images/ETEC.jpg" alt="Certification image 1" width={200} height={300} />,
     <Image key="certifications-image2" src="/images/6.jpg" alt="Certification image 2" width={200} height={300} />,
     <Image key="certifications-image3" src="/images/Opentech.jpg" alt="Certification image 3" width={200} height={300} />,
-    <Image key="skills-image1" src="/images/ryl.JPG  " alt="Skill image 1" width={200} height={300} />,
+    <Image key="skills-image1" src="/images/ryl.JPG" alt="Skill image 1" width={200} height={300} />,
     <Image key="education-image1" src="/images/Beltei.jpg" alt="Education image" width={200} height={300} />
 ]
 const Section = ({ children }) => {
